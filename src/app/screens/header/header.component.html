@@ -1,0 +1,20 @@
+<!-- ...........side drawer start............ -->
+<div *ngIf="drawerstatus" class="sidedrawerouter">
+    <div class="sidedrawerouter2">
+        <a routerLinkActive="active" [routerLink]="['/header/landingpage']">Home</a>
+        <a routerLinkActive="active" [routerLink]="['/header/secondscreen']">Other</a>
+        <a routerLinkActive="active" [routerLink]="['/header/loginpage']"> Login screen</a>
+    </div>
+</div>
+<!-- ..............end.................. -->
+
+<!-- ...........header start............ -->
+<div class="headername">
+    <div (click)="toggledrawer()" class="homeicon hover"></div>
+    <p>Welcome abc</p>
+    <div></div>
+</div>
+<!-- .........end............... -->
+
+<!-- ........route output.......... -->
+<router-outlet></router-outlet>

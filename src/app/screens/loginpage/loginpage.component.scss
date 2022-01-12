@@ -1,0 +1,20 @@
+.customform:focus {
+    outline-color: #a5a5d4;
+    outline: width 2px;
+}
+
+.customform {
+    margin-left: 10px;
+    margin-top: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+label {
+    font-weight: bold !important;
+}
+
+input {
+    padding: 5px
+}

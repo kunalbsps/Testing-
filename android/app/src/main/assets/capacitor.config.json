@@ -1,0 +1,6 @@
+{
+	"appId": "com.example.ngrx",
+	"appName": "ngrx",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
